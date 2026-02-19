@@ -1,3 +1,10 @@
+# CANDDI FORK REASONING
+We need this fork because:
+- This library needs illuminate/support between v5 - v11.
+- Laravel 12 needs illuminate/support v12
+
+I've just updated the composer.json to allow, reports suggest it's working fine even with a major version upgrade
+If this ever gets merged: https://github.com/maclof/kubernetes-client/pull/132 then we can remove this fork
 
 # Kubernetes Client
 
